@@ -27,7 +27,9 @@ class Beta {
 
 How can method in Beta be used in Alpha?  What are the ways?
 
-By Composition
+By 
+
+Composition
 : create an object of Beta in Alpha, then call the method
 
 ```
@@ -41,9 +43,9 @@ class Alpha
 }
 ``` 
  
-Or
+Or by
 
-By Inheritance
+Inheritance
 : Alpha extends Beta
 
 ```
