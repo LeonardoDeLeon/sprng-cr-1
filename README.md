@@ -10,7 +10,7 @@
 
 ### What is tightly coupled?
 
-Two classes are given below:
+Given two classes Alpha and Beta below:
 
 ```
 class Alpha {
@@ -28,13 +28,13 @@ class Beta {
 How can method in Beta be used in Alpha?  What are the ways?
 
 By Composition
-: => create an object of Beta in Alpha, then call the method
+: create an object of Beta in Alpha, then call the method
 
 ```
 class Alpha 
 {
-	void show() 
-    {
+	void show()
+	{
 		System.out.println(new Beta().disp());
 	}
 	
@@ -44,13 +44,13 @@ class Alpha
 Or
 
 By Inheritance
-: => Alpha extends Beta
+: Alpha extends Beta
 
 ```
 class Alpha extends Beta 
 {
-	void show() 
-    {
+	void show()
+	{
 		System.out.println(disp());
 	}
 }
